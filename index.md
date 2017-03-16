@@ -6,7 +6,7 @@ sidebar: true
 
 # Frontiers in Security Research (FDAT085)
 
-*PhD course for Chalmers/Gothenburg University, taking place at the Johanneberg campus*
+*PhD course for Chalmers/Gothenburg University, taking place at the Johanneberg campus. Lecturer: [Steven Van Acker](http://singularity.be/)*
 
 In this course, we study advanced security topics by reading state-of-the-art
 papers from top conferences in the field. Each student chooses relevant papers
