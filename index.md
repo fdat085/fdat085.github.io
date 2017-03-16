@@ -26,7 +26,7 @@ This schedule can also be found in [the course's Google calendar](http://fixme).
 {% assign nodes = site.pages | sort: 'date' %}
 {% for node in nodes %}
 {% if node.layout == "student" %}
-<tr><td>{{ node.date |  date: "%a. %d %B %Y" }}, {{node.time}}</td><td>{{ node.room }}</td><td>{{ node.author }}</td><td><a href="{{node.url}}">{{ node.title }}</a></td></tr>
+<tr><td>{{ node.date |  date: "%a. %d %B %Y" }}, {{node.time}}</td><td>{{ node.room }}</td><td>{{ node.author }}</td><td><a href="{{ site.baseurl }}{{node.url}}">{{ node.title }}</a></td></tr>
 {% endif %}
 {% endfor %}
 </tbody>
