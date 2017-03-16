@@ -1,0 +1,18 @@
+#!/bin/sh -eux
+
+USERNAME=acker
+RHOST=$USERNAME@remote12.chalmers.se
+RPATH=/chalmers/groups/edu2009/www/www.cse.chalmers.se/year/2017/course/FDAT085
+
+rm -rf _site
+tmpfile=$(mktemp)
+cp _config.yml $tmpfile
+cp _config.yml.chalmers _config.yml
+jekyll build
+cp $tmpfile _config.yml
+rm -f $tmpfile
+rsync -priv --delete --checksum $* \
+  _site/ \
+  ${RHOST}:${RPATH}
+
+ssh ${RHOST} "find $RPATH -type d -exec chmod u=rwx,g=rwxs,o=rx {} \; && find $RPATH -type f -exec chmod u=rwx,g=rwx,o=rx {} \; && chown -R $USERNAME:edu2009 $RPATH"
