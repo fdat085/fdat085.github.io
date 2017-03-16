@@ -18,7 +18,8 @@ These reports are then peer-reviewed by the other students in the course.
 
 ## Course schedule
 
-This schedule can also be found in [the course's Google calendar](http://fixme).
+This schedule can also be found in [the course's Google calendar](https://calendar.google.com/calendar/embed?src=uug7eb9ur7818nurkcsh6r8boc%40group.calendar.google.com&ctz=Europe/Brussels).
+<a href="https://calendar.google.com/calendar/ical/uug7eb9ur7818nurkcsh6r8boc%40group.calendar.google.com/public/basic.ics"><img src='https://calendar.google.com/googlecalendar/images/ical.gif'></a>
 
 <table class='smalltext nowrap'>
 <thead><tr><th>Date</th><th>Room</th><th>Presenter</th><th>Topic</th></tr></thead>
