@@ -1,0 +1,50 @@
+.float-right {
+	float: right;
+}
+
+.sidebar .logo {
+	/* background-image:    url(/images/logo.png); */
+	background-size:     cover;
+	background-repeat:   no-repeat;
+	background-position: center center;
+	height: 420px;
+	left: 0px;
+	top: 0px;
+}
+
+.textbox {
+}
+
+.textbox h1 {
+	color: white;
+	font-size: 150%;
+}
+
+.textbox .indentbox {
+	border-left: 2px solid blue;
+	margin-left: 2px;
+	padding-left: 10px;
+	position: relative;
+	font-size: small;
+}
+
+.textbox .links {
+	margin-bottom: 10px;
+}
+
+.textbox .contact {
+	/*position: absolute;
+	bottom: 0; */
+}
+
+.smalltext {
+	font-size: small;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.abstract {
+	max-width: 38rem;
+}

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="page">
+	<h1>{{ page.title }}</h1>
+	<em>Public presentation by {{ page.author }} <br/>
+	on {{ page.date |  date: "%a. %d %B %Y" }} at {{page.time}} in room {{page.room}}</em>
+
+<pre class="abstract">
+{{ page.abstract }}
+</pre>
+
+	<dl>
+		<dt>Introductory papers</dt>
+		<dd><dl>
+			{% for paper in page.intropapers %}
+			<li>{% if paper.optional %}(Optional) {% endif %}<a href="{{paper.url}}">{{ paper.title }}</a></li>
+			{% endfor %}
+		</dl></dd>
+		<dt>Advanced papers</dt>
+		<dd><dl>
+			{% for paper in page.advancedpapers %}
+			<li>{% if paper.optional %}(Optional) {% endif %}<a href="{{paper.url}}">{{ paper.title }}</a></li>
+			{% endfor %}
+		</dl></dd>
+</dl>
+
+</div>
