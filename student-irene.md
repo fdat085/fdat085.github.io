@@ -1,7 +1,7 @@
 ---
 layout: student
 sidebar: true
-title: DIFC?
+title: Distributed Information Flow Control
 author: Irene Lobo Valbuena
 room: EL41
 date: 2017/05/23
