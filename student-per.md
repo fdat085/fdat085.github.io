@@ -17,7 +17,7 @@ better utilize existing optimization tools used in computer architecture. The
 second improvement, called GraphSC, lends support to secure computation of
 graph algorithms."
 intropapers:
-- title: "Lindell & Pinkas: A Proof of Security of Yao's Protocol for Two-Party Computations (ECCC 2004)"
+- title: "Lindell & Pinkas: A Proof of Security of Yao's Protocol for Two-Party Computations (ECCC 2004) [pages 1-8, 10-15]"
   url: "http://eprint.iacr.org/2004/175"
 advancedpapers:
 - title: "Songhori et al.: TinyGarble: Highly Compressed and Scalable Sequential Garbled Circuits (S&P 2015)"
