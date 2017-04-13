@@ -6,6 +6,7 @@ author: Per Hallgren
 room: EDIT 3364
 date: 2017/04/18
 time: 15:30-17:30
+pdf: "per.pdf"
 abstract: "Garbled Circuits is a technique used to compute a function based on inputs from
 multiple parties without disclosing any data that correlated to the user's
 input, except for the output of the function. The technique has been around and

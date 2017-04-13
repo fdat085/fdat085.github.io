@@ -11,6 +11,16 @@ layout: default
 {{ page.abstract }}
 </pre>
 
+<div>
+{% if page.pdf %}
+<a href="{{site.baseurl}}public/pdf/{{page.pdf}}">View PDF</a>
+{% else %}
+(PDF not ready for download yet)
+{% endif %}
+<br/>
+<br/>
+</div>
+
 	<dl>
 		<dt>Introductory papers</dt>
 		<dd><dl>
