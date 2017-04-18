@@ -1,7 +1,7 @@
 ---
 layout: student
 sidebar: true
-title: Homomorphic Encryption: From Scratch To Quantum
+title: "Homomorphic Encryption: From Scratch To Quantum"
 author: Carlo Brunetta
 room: EDIT 3364
 date: 2017/04/25
