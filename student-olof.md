@@ -6,6 +6,7 @@ author: Olof Mogren
 room: EDIT 3364
 date: 2017/05/03
 time: 10:00-12:00
+pdf: "olof.pdf"
 abstract: "JavaScript has become a ubiquitous Web technology that enables
 interactive and dynamic Web sites. The widespread adoption, along
 with some of its properties allowing authors to easily obfuscate their
