@@ -9,7 +9,7 @@ time: 10:00-12:00
 pdf: "marco.pdf"
 abstract: "Data analysts mine large databases and crunch data in order to
   extrapolate statistics and interesting patterns.
-  However people's privacy is jeopardized in the process, whenever a
+  However, people's privacy is jeopardized in the process, whenever a
   database contains private data.
   *Differential privacy* has emerged recently as an appealing
   rigourous definition of privacy, which protects individuals in a
