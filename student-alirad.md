@@ -3,8 +3,8 @@ layout: student
 sidebar: true
 title: DRAM security issues
 author: Alirad Malek
-room: EDIT 3364
-date: 2017/05/16
+room: EL41
+date: 2017/05/23
 time: 15:30-17:30
 abstract: "..."
 intropapers:
