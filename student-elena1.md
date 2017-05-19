@@ -3,9 +3,9 @@ layout: student
 sidebar: true
 title: Anonymity in Digital Currencies
 author: Elena Pagnin
-room: EL41
-date: 2017/05/17
-time: 10:00-12:00
+room: EB
+date: 2017/05/30
+time: 15:30-17:30
 pdf: "elena.pdf"
 abstract: "
 Bitcoin is the first digital currency to see widespread adoption.  While  payments  are  conducted  between  pseudonyms, Bitcoin  cannot  offer  strong  privacy  guarantees:  payment  transactions   are   recorded   in   a   public   decentralized   ledger, from which  much  information  can  be  deduced.  Zerocoin  tackles  some  of  these  privacy  issues  by unlinking  transactions  from  the  payment’s  origin.  Yet,  it  still reveals  payments’  destinations  and  amounts,  and  is  limited  in functionality.
